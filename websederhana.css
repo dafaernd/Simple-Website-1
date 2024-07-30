@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    font: 16px/28px arial,sans-serif;
+
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+
+    background-color: white;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header a{
+    text-decoration: none;
+    color: steelblue;
+}
+
+.header a:hover{
+    font-weight: bold;
+}
+
+.hero{
+    height: 300px;
+    background-image: url(/latihan_2/img/2.png);
+    background-size: cover;
+    background-position: 0 -70px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+}
+
+.content .metadata{
+    font-size: 11px;
+    margin-top: -20px;
+}
+
+.content .artikel{
+    font-size: 14px;
+    text-align: justify;
+}
